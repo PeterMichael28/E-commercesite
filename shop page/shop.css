@@ -1,0 +1,43 @@
+/*shop banner 1 */
+
+#shop-banner {
+    background: url("../img/banner/b1.jpg") center/cover no-repeat;
+    width: 100%;
+    height: 44vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#shop-banner h1 {
+    font-size: 2.8rem;
+    letter-spacing: 3px;
+    margin: 2rem auto 0;
+}
+#shop-banner p {
+    font-size: .8rem;
+    letter-spacing: 1.5px;
+ color: rgba(255, 255, 255, .8);
+}
+
+/*products pagination */
+#products .pagination {
+    margin: 2.5rem auto;
+}
+#products .pagination a{
+    margin: 0 0px;
+    padding: 10px 15px;
+    background-color: #088178;
+    border: 0;
+    outline: none;
+    color: white;
+    font-size: .9rem;
+}
+
+@media only screen and (max-width: 960px) {
+    #shop-banner {
+        height: 38vh;
+    }
+}
